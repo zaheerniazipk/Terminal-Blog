@@ -1,0 +1,24 @@
+Step1: Install MongoDB and Mongo Shell
+
+
+Step2: Open MongoDB in terminal
+-> mongod
+
+Step3: Open Mongo Shell tool in terminal
+-> mongosh
+
+Step4: How to add data in the Database
+
+1-- Create a Database 'fullstack' in DB using Mongo Shell
+-> use fullstack
+
+2-- Create a collections | table and a document or recoard in the DB fullstack
+-> db.students.insertOne({'name': 'Zaheer', 'age': 23})
+-> show collections
+
+3-- Find all data recoard
+-> db.students.find({})  
+
+all done
+
+database with name fullstack | students collection and document record is {'name': 'Zaheer', 'age':23}
