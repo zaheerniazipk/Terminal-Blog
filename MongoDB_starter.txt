@@ -22,3 +22,7 @@ Step4: How to add data in the Database
 all done
 
 database with name fullstack | students collection and document record is {'name': 'Zaheer', 'age':23}
+
+
+Open Mongosh and verify save_to_mongo() post method
+-> db.posts.find({}).pretty()
