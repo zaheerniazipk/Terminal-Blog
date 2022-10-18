@@ -9,3 +9,5 @@ collection = database['students']
 # List comprehension
 students = [student for student in collection.find({})]
 print(students)
+
+# test.py is used for database interaction test

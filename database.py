@@ -3,7 +3,6 @@ import pymongo
 
 # Database class for MongoDB interaction
 class Database(object):
-    # class object attribute | static attribute
     URI = "mongodb://localhost:27017/"
     DATABASE = None
 
