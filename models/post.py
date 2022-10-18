@@ -1,4 +1,7 @@
 # Blueprint
+from database import Database
+
+
 class Post(object):
     # Constructor
     def __init__(self, blog_id, title, content, author, date, id):
